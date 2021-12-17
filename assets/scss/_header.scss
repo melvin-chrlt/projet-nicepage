@@ -1,0 +1,73 @@
+header{
+
+    #fixedBar{
+        position: fixed;
+        top: 0;
+        width: 100%;
+        padding: 1em;
+        background-color: #F2F2F2;
+        display: flex;
+
+        div{
+            margin: 0 auto;
+
+            img{
+                padding: 0.5em;
+            }
+
+            img:hover{
+                background-color: #C9E4F9;
+            }
+        }
+    }
+
+    nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5em;
+        padding: 1em;
+        gap: 40em;
+
+        #navRightPart{
+            display: flex;
+            align-items: center;
+            gap: 2em;
+
+            #navSocial{
+                .fa-facebook-f{
+                    background-color: #3B5998;
+                    color: white;
+                    padding: 5px 7px;
+                    border-radius: 50%;
+                }
+
+                .fa-twitter{
+                    background-color: #55ACEE;
+                    color: white;
+                    padding: 5px;
+                    border-radius: 50%;
+                }
+                
+                .fa-instagram{
+                    background-color: #C536A4;
+                    color: white;
+                    padding: 5px;
+                    border-radius: 50%;
+                }
+            }
+    
+            #menuBurger{
+    
+                .bar{
+                    height: 3px;
+                    width: 30px;
+                    background-color: black;
+                    margin: 5px;
+                }
+            }
+        }
+
+        
+    }
+}

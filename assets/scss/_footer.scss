@@ -1,0 +1,96 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    #contact{
+        display: flex;
+        width: 60%;
+
+        #newsletter{
+            color: #4E5DB3;
+            display: flex;
+            flex-direction: column;
+            padding: 30px;
+            width: 50%;
+            gap: 1em;
+
+            h4{
+                font-size: 18px;
+            }
+
+            .footerBoldText{
+                font-size: 36px;
+                font-weight: 700;
+                width: 80%;
+            }
+
+            .address{
+                font-family: 'Open Sans', sans-serif;
+                font-size: 20px;
+            }
+
+            #mailNewsletter{
+                font-family: 'Open Sans', sans-serif;
+                font-size: 20px;
+                font-weight: 700;
+                color: #929fdf;
+                text-decoration: underline;
+            }
+
+            #mailNewsletter:hover{
+                color: #4E5DB3;
+            }
+
+            i{
+                margin-right: 1em;
+                color: #4E5DB3;
+                font-size: 26px;
+            }
+        }
+
+        #formulaire{
+            background-color: #E5E5E5;
+            padding: 2em;
+            display: flex;
+            flex-direction: column;
+            gap: 1.5em;
+            width: 50%;
+
+            p{
+                color: #4E5DB3;
+                font-size: 48px;
+            }
+
+            .form{
+                font-size: 1.125em;
+                padding: 10px 12px;
+                font-family: 'Open Sans', sans-serif;
+                font-weight: lighter;
+                border: none;
+            }
+
+            #message{
+                font-size: 1.125em;
+                font-family: 'Open Sans', sans-serif;
+                font-weight: lighter;
+                padding: 10px 12px;
+                border: none;
+            }
+
+            a{
+               padding: 1em 2em;
+               font-family: 'Open Sans', sans-serif;
+               font-size: 18px;
+               font-weight: 700;
+               letter-spacing: 3px;
+               color: white;
+               background-color: #4e5dab;
+               width: 13%;
+               margin: 0 21em; 
+            }
+        }
+        
+    }
+    
+}
