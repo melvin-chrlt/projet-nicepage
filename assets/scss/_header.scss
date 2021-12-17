@@ -1,67 +1,141 @@
-#presentation{
-    display: flex;
-    width: 100%;
+header{
 
-    .image{
-        background-image: url(../images/photoHomme.jpg);
-        background-size: cover;
-        width: 40%;
-        height: 35rem;
+    #fixedBar{
+        position: fixed;
+        top: 0;
+        width: 100%;
+        padding: 1em;
+        background-color: #F2F2F2;
+        display: flex;
+
+        div{
+            margin: 0 auto;
+
+            img{
+                padding: 0.5em;
+            }
+
+            img:hover{
+                background-color: #C9E4F9;
+            }
+        }
     }
-    .presentationP{
-        width: 40%;
-        height: 35rem;
-        margin-left: 3rem;
-        margin-right: 3rem;
 
-        h1{
-            font-size: 3rem;
-            margin-top: 4rem;
-            margin-bottom: 1rem;
+    nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5em;
+        padding: 1em;
+        gap: 40em;
+
+        #navRightPart{
+            display: flex;
+            align-items: center;
+            gap: 2em;
+
+            #navSocial{
+                .fa-facebook-f{
+                    background-color: #3B5998;
+                    color: white;
+                    padding: 5px 7px;
+                    border-radius: 50%;
+                }
+
+                .fa-twitter{
+                    background-color: #55ACEE;
+                    color: white;
+                    padding: 5px;
+                    border-radius: 50%;
+                }
+                
+                .fa-instagram{
+                    background-color: #C536A4;
+                    color: white;
+                    padding: 5px;
+                    border-radius: 50%;
+                }
+            }
+    
+            #menuBurger{
+    
+                .bar{
+                    height: 3px;
+                    width: 30px;
+                    background-color: black;
+                    margin: 5px;
+                }
+            }
         }
 
-        h2{
-            color: #4e5dab;
-            margin-bottom: 1rem;
-            font-weight: 100;
-            font-size: 1.2rem;
+        
+    }
+
+    #presentation{
+        display: flex;
+        width: 100%;
+
+        .image{
+            background-image: url(../images/photoHomme.jpg);
+            background-size: cover;
+            width: 40%;
+            height: 35rem;
+        }
+        .presentationP{
+            width: 40%;
+            height: 35rem;
+            margin-left: 3rem;
+            margin-right: 3rem;
+
+            h1{
+                font-size: 3rem;
+                margin-top: 4rem;
+                margin-bottom: 1rem;
+            }
+
+            h2{
+                color: #4e5dab;
+                margin-bottom: 1rem;
+                font-weight: 100;
+                font-size: 1.2rem;
+            }
+
+            p{
+                font-size: smaller;
+                opacity: 0.8;
+                margin-bottom: 1rem;
+            }
         }
 
-        p{
+        .blueBackground{
+            background-color: #4e5dab;
+            width: 20%;
+            height: 35rem;
+
+        }
+    }
+
+    .contact{
+        margin-bottom: 3rem;
+        ul li{
             font-size: smaller;
-            opacity: 0.8;
-            margin-bottom: 1rem;
+            margin-bottom: 0.6rem;
+
+            a{
+                color: #4e5dab;
+            }
         }
-    }
-
-    .blueBackground{
-        background-color: #4e5dab;
-        width: 20%;
-        height: 35rem;
-
-    }
-}
-
-.contact{
-    margin-bottom: 3rem;
-    ul li{
-        font-size: smaller;
-        margin-bottom: 0.6rem;
-
-        a{
+        i{
             color: #4e5dab;
         }
     }
-    i{
-        color: #4e5dab;
-    }
-}
 
-.button{
-    color: white;
-    background-color: #4e5dab;
-    padding: 0.8rem 4.5rem;
-    border-radius: 5px;
-    margin-top: 2rem;
-    letter-spacing: .1rem;
+    .button{
+        color: white;
+        background-color: #4e5dab;
+        padding: 0.8rem 4.5rem;
+        border-radius: 5px;
+        margin-top: 2rem;
+        letter-spacing: .1rem;
+    }
 }

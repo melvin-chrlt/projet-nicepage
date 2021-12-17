@@ -10,65 +10,199 @@
   list-style: none;
 }
 
-#presentation {
+header #fixedBar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 1em;
+  background-color: #F2F2F2;
+  display: flex;
+}
+header #fixedBar div {
+  margin: 0 auto;
+}
+header #fixedBar div img {
+  padding: 0.5em;
+}
+header #fixedBar div img:hover {
+  background-color: #C9E4F9;
+}
+header nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5em;
+  padding: 1em;
+  gap: 40em;
+}
+header nav #navRightPart {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+}
+header nav #navRightPart #navSocial .fa-facebook-f {
+  background-color: #3B5998;
+  color: white;
+  padding: 5px 7px;
+  border-radius: 50%;
+}
+header nav #navRightPart #navSocial .fa-twitter {
+  background-color: #55ACEE;
+  color: white;
+  padding: 5px;
+  border-radius: 50%;
+}
+header nav #navRightPart #navSocial .fa-instagram {
+  background-color: #C536A4;
+  color: white;
+  padding: 5px;
+  border-radius: 50%;
+}
+header nav #navRightPart #menuBurger .bar {
+  height: 3px;
+  width: 30px;
+  background-color: black;
+  margin: 5px;
+}
+header #presentation {
   display: flex;
   width: 100%;
 }
-#presentation .image {
+header #presentation .image {
   background-image: url(../images/photoHomme.jpg);
   background-size: cover;
   width: 40%;
   height: 35rem;
 }
-#presentation .presentationP {
+header #presentation .presentationP {
   width: 40%;
   height: 35rem;
   margin-left: 3rem;
   margin-right: 3rem;
 }
-#presentation .presentationP h1 {
+header #presentation .presentationP h1 {
   font-size: 3rem;
   margin-top: 4rem;
   margin-bottom: 1rem;
 }
-#presentation .presentationP h2 {
+header #presentation .presentationP h2 {
   color: #4e5dab;
   margin-bottom: 1rem;
   font-weight: 100;
   font-size: 1.2rem;
 }
-#presentation .presentationP p {
+header #presentation .presentationP p {
   font-size: smaller;
   opacity: 0.8;
   margin-bottom: 1rem;
 }
-#presentation .blueBackground {
+header #presentation .blueBackground {
   background-color: #4e5dab;
   width: 20%;
   height: 35rem;
 }
-
-.contact {
+header .contact {
   margin-bottom: 3rem;
 }
-.contact ul li {
+header .contact ul li {
   font-size: smaller;
   margin-bottom: 0.6rem;
 }
-.contact ul li a {
+header .contact ul li a {
   color: #4e5dab;
 }
-.contact i {
+header .contact i {
   color: #4e5dab;
 }
-
-.button {
+header .button {
   color: white;
   background-color: #4e5dab;
   padding: 0.8rem 4.5rem;
   border-radius: 5px;
   margin-top: 2rem;
   letter-spacing: 0.1rem;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer #contact {
+  display: flex;
+  width: 60%;
+}
+footer #contact #newsletter {
+  color: #4E5DB3;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  width: 50%;
+  gap: 1em;
+}
+footer #contact #newsletter h4 {
+  font-size: 18px;
+}
+footer #contact #newsletter .footerBoldText {
+  font-size: 36px;
+  font-weight: 700;
+  width: 80%;
+}
+footer #contact #newsletter .address {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+}
+footer #contact #newsletter #mailNewsletter {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #929fdf;
+  text-decoration: underline;
+}
+footer #contact #newsletter #mailNewsletter:hover {
+  color: #4E5DB3;
+}
+footer #contact #newsletter i {
+  margin-right: 1em;
+  color: #4E5DB3;
+  font-size: 26px;
+}
+footer #contact #formulaire {
+  background-color: #E5E5E5;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+  width: 50%;
+}
+footer #contact #formulaire p {
+  color: #4E5DB3;
+  font-size: 48px;
+}
+footer #contact #formulaire .form {
+  font-size: 1.125em;
+  padding: 10px 12px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: lighter;
+  border: none;
+}
+footer #contact #formulaire #message {
+  font-size: 1.125em;
+  font-family: "Open Sans", sans-serif;
+  font-weight: lighter;
+  padding: 10px 12px;
+  border: none;
+}
+footer #contact #formulaire a {
+  padding: 1em 2em;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  color: white;
+  background-color: #4e5dab;
+  width: 13%;
+  margin: 0 21em;
 }
 
 /*# sourceMappingURL=style.css.map */
