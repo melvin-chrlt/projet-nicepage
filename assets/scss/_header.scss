@@ -1,0 +1,67 @@
+#presentation{
+    display: flex;
+    width: 100%;
+
+    .image{
+        background-image: url(../images/photoHomme.jpg);
+        background-size: cover;
+        width: 40%;
+        height: 35rem;
+    }
+    .presentationP{
+        width: 40%;
+        height: 35rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
+
+        h1{
+            font-size: 3rem;
+            margin-top: 4rem;
+            margin-bottom: 1rem;
+        }
+
+        h2{
+            color: #4e5dab;
+            margin-bottom: 1rem;
+            font-weight: 100;
+            font-size: 1.2rem;
+        }
+
+        p{
+            font-size: smaller;
+            opacity: 0.8;
+            margin-bottom: 1rem;
+        }
+    }
+
+    .blueBackground{
+        background-color: #4e5dab;
+        width: 20%;
+        height: 35rem;
+
+    }
+}
+
+.contact{
+    margin-bottom: 3rem;
+    ul li{
+        font-size: smaller;
+        margin-bottom: 0.6rem;
+
+        a{
+            color: #4e5dab;
+        }
+    }
+    i{
+        color: #4e5dab;
+    }
+}
+
+.button{
+    color: white;
+    background-color: #4e5dab;
+    padding: 0.8rem 4.5rem;
+    border-radius: 5px;
+    margin-top: 2rem;
+    letter-spacing: .1rem;
+}
