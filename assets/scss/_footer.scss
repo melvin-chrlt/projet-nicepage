@@ -6,6 +6,7 @@ footer{
     #contact{
         display: flex;
         width: 60%;
+        padding: 5em 0;
 
         #newsletter{
             color: #4E5DB3;
@@ -78,6 +79,11 @@ footer{
                 border: none;
             }
 
+            #submitBtn{
+                display: flex;
+                justify-content: flex-end;
+            }
+
             a{
                padding: 1em 2em;
                font-family: 'Open Sans', sans-serif;
@@ -85,12 +91,48 @@ footer{
                font-weight: 700;
                letter-spacing: 3px;
                color: white;
-               background-color: #4e5dab;
-               width: 13%;
-               margin: 0 21em; 
+               background-color: #4e5dab; 
             }
         }
-        
     }
-    
+
+    #bottomFooter{
+        background-color: #333333;
+        width: 100%;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 3em 0;
+        
+
+        #bottomFooterText{
+            width: 20%;
+            display: flex;
+            gap: 4em;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+            p, a{
+                font-family: 'Open Sans', sans-serif;
+                font-size: 14px;
+            }
+
+            div{
+                display: flex;
+
+                p, a{
+                    font-size: 12,8px;
+                }
+
+                a{
+                    padding-right: 5px;
+                    color: #a1d3fc;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
 }

@@ -131,6 +131,7 @@ footer {
 footer #contact {
   display: flex;
   width: 60%;
+  padding: 5em 0;
 }
 footer #contact #newsletter {
   color: #4E5DB3;
@@ -193,6 +194,10 @@ footer #contact #formulaire #message {
   padding: 10px 12px;
   border: none;
 }
+footer #contact #formulaire #submitBtn {
+  display: flex;
+  justify-content: flex-end;
+}
 footer #contact #formulaire a {
   padding: 1em 2em;
   font-family: "Open Sans", sans-serif;
@@ -201,8 +206,39 @@ footer #contact #formulaire a {
   letter-spacing: 3px;
   color: white;
   background-color: #4e5dab;
-  width: 13%;
-  margin: 0 21em;
+}
+footer #bottomFooter {
+  background-color: #333333;
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 3em 0;
+}
+footer #bottomFooter #bottomFooterText {
+  width: 20%;
+  display: flex;
+  gap: 4em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer #bottomFooter #bottomFooterText p, footer #bottomFooter #bottomFooterText a {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+}
+footer #bottomFooter #bottomFooterText div {
+  display: flex;
+}
+footer #bottomFooter #bottomFooterText div p, footer #bottomFooter #bottomFooterText div a {
+  font-size: 12, 8px;
+}
+footer #bottomFooter #bottomFooterText div a {
+  padding-right: 5px;
+  color: #a1d3fc;
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=style.css.map */
