@@ -105,13 +105,13 @@ main{
                 background-image: url(../images/gal1.jpg);
                 background-size: cover;
                 background-position: center;
-                // transition: all 0.5s ease;
-                // cursor: pointer;
+                transition: all 0.5s ease;
+                cursor: pointer;
             }
 
-            // .one:hover{
-            //     background-image: linear-gradient(0deg,#4e5dab, #4e5dab);
-            // }
+            .one:hover{
+                background-image: linear-gradient(0deg,#4e5dab, #4e5dab);
+            }
 
             .two{
                 grid-area: 1/2/2/3;
@@ -167,6 +167,86 @@ main{
                 background-image: url(../images/gal9.jpg);
                 background-size: cover;
                 background-position: center;
+            }
+        }
+
+        #freepik{
+            color: white;
+            font-family: 'Open Sans', sans-serif;
+
+            a{
+                color: white;
+                text-decoration: underline;
+                font-family: 'Open Sans', sans-serif;
+            }
+        }
+
+        #skills{
+            display: flex;
+            justify-content: center;
+
+            div{
+                display: flex;
+                flex-direction: column;
+                width: 17%;
+                padding: 2em;
+                line-height: 1.6;
+
+                h5{
+                    font-size: 20px;
+                    color: white;
+                    letter-spacing: 2px;
+                    font-weight: 300;
+                    font-family: 'Open Sans', sans-serif;
+                }
+
+                h1{
+                    font-size: 60px;
+                    font-weight: 400;
+                    color: white;
+                }
+
+                p{
+                    font-size: 20px;
+                    font-family: 'Open Sans', sans-serif;
+                    color: #858e99;
+                    line-height: 35px;
+                    padding: 1em 0;
+                }
+
+                a{
+                    padding: 1em 2em;
+                    width: 30%;
+                    background-color: #4e5dab;
+                    font-family: 'Open Sans', sans-serif;
+                    text-align: center;
+                    border-radius: 15px;
+                    color: white;
+                    font-size: 1.125em;
+                    font-weight: 500;
+                    letter-spacing: 1px;
+                    transition: all ease-in-out 0.2s;
+                }
+
+                a:hover{
+                    background-color: #79c0fb;
+                }
+
+                ul{
+
+                    li{
+                        display: flex;
+                        align-items: flex-start;
+                        font-size: 20px;
+                        font-family: 'Open Sans', sans-serif;
+                        color: #858e99;
+                        margin-left: 1.4em;
+
+                        span{
+                            margin-right: 5px;
+                        }
+                    }
+                }
             }
         }
     }
