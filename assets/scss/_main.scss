@@ -215,8 +215,8 @@ main{
                 }
 
                 a{
-                    padding: 1em 2em;
-                    width: 30%;
+                    padding: 0.5em 2em;
+                    width: 35%;
                     background-color: #4e5dab;
                     font-family: 'Open Sans', sans-serif;
                     text-align: center;
@@ -247,6 +247,98 @@ main{
                         }
                     }
                 }
+            }
+        }
+    }
+
+    #profile{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5em 0;
+
+        h1{
+            font-size: 48px;
+            font-weight: 700;
+        }
+
+        p{
+            font-size: 20px;
+            font-family: 'Open Sans', sans-serif;
+            padding: 1em 0;
+        }
+
+        img{
+            border-radius: 75%;
+            width: 17em;
+            height: 17em;
+            object-fit: cover;
+            margin-top: 5em;
+        }
+
+        div{
+            margin-top: 2.5em;
+            background-color: #4e5dab;
+            width: 30%;
+            color: white;
+            padding: 1em;
+            text-align: center;
+
+            h3{
+                font-size: 30px;
+                font-weight: 400;
+            }
+
+            p{
+                font-family: 'Open Sans', sans-serif;
+                line-height: 2;
+                font-size: 16px;
+            }
+
+            a{
+                color: white;
+                font-family: 'Open Sans', sans-serif;
+                text-decoration: underline;
+            }
+        }
+
+        #details{
+            background-color: white;
+            color: black;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+            h4{
+                font-size: 30px;
+                font-weight: 400;
+                padding-bottom: 0.3em;
+            }
+
+            p{
+                font-size: 16px;
+                padding: 0.3em;
+                font-family: 'Open Sans', sans-serif;
+
+                span{
+                    font-weight: 700;
+                    font-family: 'Open Sans', sans-serif;
+                }
+            }
+            
+            #profileSocial{
+                background-color: white;
+                margin: 0;
+                display: flex;
+                justify-content: center;
+                gap: 1em;
+
+                i{
+                    font-size: 20px;
+                    color: black;
+                    font-weight: 700;    
+                }
+                
             }
         }
     }
