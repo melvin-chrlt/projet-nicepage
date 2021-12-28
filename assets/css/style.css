@@ -208,148 +208,71 @@ main #myWorks #gallery {
   display: grid;
   grid-auto-flow: column;
   grid-template-columns: repeat(3, 33.33333%);
-  grid-template-rows: repeat(3, 28em);
+  grid-template-rows: repeat(3, 25em);
   width: 100%;
 }
-main #myWorks #gallery .one {
-  grid-area: 1/1/2/2;
-  background-image: url(../images/gal1.jpg);
+main #myWorks #gallery .gal {
   background-size: cover;
   background-position: center;
   cursor: pointer;
 }
-main #myWorks #gallery .one .blueSquare {
+main #myWorks #gallery .gal .blueSquare {
   background-image: linear-gradient(0deg, #4e5dab, #4e5dab);
   width: 100%;
   height: 100%;
   display: none;
   justify-content: center;
   align-items: center;
+  animation: opacity 0.3s ease-in-out;
 }
-main #myWorks #gallery .one .blueSquare p {
+main #myWorks #gallery .gal .blueSquare p {
   color: white;
   font-size: 1.875em;
   font-weight: 400;
 }
-main #myWorks #gallery .two {
+main #myWorks #gallery #one {
+  grid-area: 1/1/2/2;
+  background-image: url(../images/gal1.jpg);
+}
+main #myWorks #gallery #two {
   grid-area: 1/2/2/3;
   background-image: url(../images/gal2.jpg);
-  background-size: cover;
-  background-position: center;
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
-main #myWorks #gallery .two p {
-  color: white;
-  font-size: 1.875em;
-  font-weight: 400;
-}
-main #myWorks #gallery .three {
+main #myWorks #gallery #three {
   grid-area: 1/3/2/4;
   background-image: url(../images/gal3.jpg);
-  background-size: cover;
-  background-position: center;
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
-main #myWorks #gallery .three p {
-  color: white;
-  font-size: 1.875em;
-  font-weight: 400;
-}
-main #myWorks #gallery .four {
+main #myWorks #gallery #four {
   grid-area: 2/1/3/2;
   background-image: url(../images/gal4.jpg);
-  background-size: cover;
-  background-position: center;
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
-main #myWorks #gallery .four p {
-  color: white;
-  font-size: 1.875em;
-  font-weight: 400;
-}
-main #myWorks #gallery .five {
+main #myWorks #gallery #five {
   grid-area: 2/2/3/3;
   background-image: url(../images/gal5.jpg);
-  background-size: cover;
-  background-position: center;
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
-main #myWorks #gallery .five p {
-  color: white;
-  font-size: 1.875em;
-  font-weight: 400;
-}
-main #myWorks #gallery .six {
+main #myWorks #gallery #six {
   grid-area: 2/3/3/4;
   background-image: url(../images/gal6.jpg);
-  background-size: cover;
-  background-position: center;
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
-main #myWorks #gallery .six p {
-  color: white;
-  font-size: 1.875em;
-  font-weight: 400;
-}
-main #myWorks #gallery .seven {
+main #myWorks #gallery #seven {
   grid-area: 3/1/4/2;
   background-image: url(../images/gal7.jpg);
-  background-size: cover;
-  background-position: center;
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
-main #myWorks #gallery .seven p {
-  color: white;
-  font-size: 1.875em;
-  font-weight: 400;
-}
-main #myWorks #gallery .eight {
+main #myWorks #gallery #eight {
   grid-area: 3/2/4/3;
   background-image: url(../images/gal8.jpg);
-  background-size: cover;
-  background-position: center;
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
-main #myWorks #gallery .eight p {
-  color: white;
-  font-size: 1.875em;
-  font-weight: 400;
-}
-main #myWorks #gallery .nine {
+main #myWorks #gallery #nine {
   grid-area: 3/3/4/4;
   background-image: url(../images/gal9.jpg);
-  background-size: cover;
-  background-position: center;
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
-main #myWorks #gallery .nine p {
-  color: white;
-  font-size: 1.875em;
-  font-weight: 400;
+@keyframes opacity {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+  }
 }
 main #myWorks #freepik {
   color: white;
