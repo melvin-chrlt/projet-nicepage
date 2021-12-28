@@ -207,7 +207,7 @@ main #myWorks #gallery {
   padding: 3em 0;
   display: grid;
   grid-auto-flow: column;
-  grid-template-columns: repeat(3, 34%);
+  grid-template-columns: repeat(3, 33.33333%);
   grid-template-rows: repeat(3, 28em);
   width: 100%;
 }
@@ -216,59 +216,140 @@ main #myWorks #gallery .one {
   background-image: url(../images/gal1.jpg);
   background-size: cover;
   background-position: center;
-  transition: all 0.5s ease;
   cursor: pointer;
 }
-main #myWorks #gallery .one:hover {
+main #myWorks #gallery .one .blueSquare {
   background-image: linear-gradient(0deg, #4e5dab, #4e5dab);
+  width: 100%;
+  height: 100%;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+main #myWorks #gallery .one .blueSquare p {
+  color: white;
+  font-size: 1.875em;
+  font-weight: 400;
 }
 main #myWorks #gallery .two {
   grid-area: 1/2/2/3;
   background-image: url(../images/gal2.jpg);
   background-size: cover;
   background-position: center;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main #myWorks #gallery .two p {
+  color: white;
+  font-size: 1.875em;
+  font-weight: 400;
 }
 main #myWorks #gallery .three {
   grid-area: 1/3/2/4;
   background-image: url(../images/gal3.jpg);
   background-size: cover;
   background-position: center;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main #myWorks #gallery .three p {
+  color: white;
+  font-size: 1.875em;
+  font-weight: 400;
 }
 main #myWorks #gallery .four {
   grid-area: 2/1/3/2;
   background-image: url(../images/gal4.jpg);
   background-size: cover;
   background-position: center;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main #myWorks #gallery .four p {
+  color: white;
+  font-size: 1.875em;
+  font-weight: 400;
 }
 main #myWorks #gallery .five {
   grid-area: 2/2/3/3;
   background-image: url(../images/gal5.jpg);
   background-size: cover;
   background-position: center;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main #myWorks #gallery .five p {
+  color: white;
+  font-size: 1.875em;
+  font-weight: 400;
 }
 main #myWorks #gallery .six {
   grid-area: 2/3/3/4;
   background-image: url(../images/gal6.jpg);
   background-size: cover;
   background-position: center;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main #myWorks #gallery .six p {
+  color: white;
+  font-size: 1.875em;
+  font-weight: 400;
 }
 main #myWorks #gallery .seven {
   grid-area: 3/1/4/2;
   background-image: url(../images/gal7.jpg);
   background-size: cover;
   background-position: center;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main #myWorks #gallery .seven p {
+  color: white;
+  font-size: 1.875em;
+  font-weight: 400;
 }
 main #myWorks #gallery .eight {
   grid-area: 3/2/4/3;
   background-image: url(../images/gal8.jpg);
   background-size: cover;
   background-position: center;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main #myWorks #gallery .eight p {
+  color: white;
+  font-size: 1.875em;
+  font-weight: 400;
 }
 main #myWorks #gallery .nine {
   grid-area: 3/3/4/4;
   background-image: url(../images/gal9.jpg);
   background-size: cover;
   background-position: center;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main #myWorks #gallery .nine p {
+  color: white;
+  font-size: 1.875em;
+  font-weight: 400;
 }
 main #myWorks #freepik {
   color: white;
@@ -412,6 +493,137 @@ main #profile #details #profileSocial i {
   font-size: 20px;
   color: black;
   font-weight: 700;
+}
+main #pricingTable {
+  background-color: #4e5dab;
+  padding: 3.5em 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main #pricingTable h1 {
+  font-size: 60px;
+  color: white;
+  font-weight: 400;
+}
+main #pricingTable h1 span {
+  font-weight: 700;
+}
+main #pricingTable p {
+  padding: 1.5em;
+  text-align: center;
+  color: white;
+  font-style: italic;
+  font-family: "Open Sans", sans-serif;
+  width: 40%;
+  line-height: 1.5;
+}
+main #pricingTable div {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+main #pricingTable div article {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em 3em;
+}
+main #pricingTable div article h4 {
+  font-size: 24px;
+  color: #4e5dab;
+  font-weight: 400;
+}
+main #pricingTable div article h3 {
+  font-size: 48px;
+  color: #4e5dab;
+  font-weight: 400;
+}
+main #pricingTable div article h3 span {
+  font-size: 36px;
+  font-weight: 400;
+}
+main #pricingTable div article h6 {
+  font-size: 18px;
+  color: #4e5dab;
+  font-weight: 400;
+  font-family: "PT Sans", sans-serif;
+  padding: 1em 0;
+}
+main #pricingTable div article p {
+  color: #808080;
+  width: 70%;
+  font-style: normal;
+  padding: 1em 3.5em;
+  border-top: #808080 solid 1px;
+}
+main #pricingTable div article a {
+  margin: 1em 0;
+  padding: 0.5em 3em;
+  border: #4e5dab solid 2px;
+  color: #4e5dab;
+  font-size: 20px;
+}
+main #pricingTable div article a:hover {
+  background-color: #4e5dab;
+  color: white;
+}
+main #pricingTable div article .middleCard {
+  color: white;
+  background-color: #4e5dab;
+}
+main #pricingTable div article .middleCard:hover {
+  background-color: white;
+  color: #4e5dab;
+}
+main #number {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/reunionTable.jpg);
+  background-position: center;
+  padding: 5em 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2em;
+}
+main #number div {
+  display: flex;
+  justify-content: center;
+  gap: 1.5em;
+}
+main #number div article {
+  padding: 30px;
+  border: white solid 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main #number div article h4 {
+  color: white;
+  font-size: 44px;
+  padding: 30px;
+  border: white solid 2px;
+  border-radius: 50%;
+  margin: 30px;
+  font-weight: 400;
+}
+main #number div article h5 {
+  color: white;
+  font-size: 18px;
+  letter-spacing: 1;
+  font-weight: 400;
+}
+main #number #freepik {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+}
+main #number #freepik a {
+  color: white;
+  text-decoration: underline;
+  font-family: "Open Sans", sans-serif;
+}
+main .displayNone {
+  display: none;
 }
 
 footer {
