@@ -17,6 +17,7 @@ header #fixedBar {
   padding: 1em;
   background-color: #F2F2F2;
   display: flex;
+  z-index: 999;
 }
 header #fixedBar div {
   margin: 0 auto;
@@ -223,7 +224,7 @@ main #myWorks #gallery .gal .blueSquare {
   display: none;
   justify-content: center;
   align-items: center;
-  animation: opacity 0.3s ease-in-out;
+  animation: opacity 0.5s;
 }
 main #myWorks #gallery .gal .blueSquare p {
   color: white;
@@ -268,10 +269,10 @@ main #myWorks #gallery #nine {
 }
 @keyframes opacity {
   from {
-    opacity: 0%;
+    opacity: 0;
   }
   to {
-    opacity: 100%;
+    opacity: 1;
   }
 }
 main #myWorks #freepik {

@@ -112,7 +112,7 @@ main{
                     display: none;
                     justify-content: center;
                     align-items: center;
-                    animation: opacity 0.3s ease-in-out;
+                    animation: opacity 0.5s;
                     
                     p{
                         color: white;
@@ -168,13 +168,8 @@ main{
             }
 
             @keyframes opacity{
-                from{
-                    opacity: 0%;
-                }
-
-                to{
-                    opacity: 100%;
-                }
+                from{ opacity: 0;}
+                to{ opacity: 1;}
             }
         }
 

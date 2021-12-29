@@ -1,10 +1,15 @@
-let worksGal = document.querySelector(".gal");
-let square = document.querySelector(".blueSquare");
+let square = document.getElementsByClassName("blueSquare");
+let worksGal = document.getElementsByClassName("gal");
+let numWorksGal = worksGal.length;
 
-worksGal.addEventListener('mouseenter', function(){
-    square.style.display = "flex";   
-})
+for (let i = 0; i < numWorksGal; i++){
+    worksGal[i].addEventListener('mouseenter', function(){
+        square[i].style.display = "flex";
+    })
+}
 
-worksGal.addEventListener('mouseleave', function(){
-    square.style.display = "none";
-})
+for (let i = 0; i < numWorksGal; i++){
+    worksGal[i].addEventListener('mouseleave', function(){
+        square[i].style.display = "none";
+    })
+}
